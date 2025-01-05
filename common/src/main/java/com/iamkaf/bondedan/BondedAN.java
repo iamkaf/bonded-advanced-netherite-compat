@@ -1,26 +1,20 @@
-package com.iamkaf.template;
+package com.iamkaf.bondedan;
 
 import com.iamkaf.amber.api.core.AmberMod;
-import com.iamkaf.template.registry.CreativeModeTabs;
-import com.iamkaf.template.registry.Items;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 
-public class Template extends AmberMod {
-    public static final String MOD_ID = "template";
+public class BondedAN extends AmberMod {
+    public static final String MOD_ID = "bondedan";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public Template() {
+    public BondedAN() {
         super(MOD_ID);
     }
 
     public static void init() {
-        LOGGER.info("Kaf template.");
-
-        // Registries
-        Items.init();
-        CreativeModeTabs.init();
+        LOGGER.info("Bonded x Advanced Netherite Compat");
     }
 
     /**

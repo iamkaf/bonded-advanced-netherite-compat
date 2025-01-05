@@ -39,5 +39,19 @@ versionRange = "[${amber_version},)"
 ordering = "AFTER"
 side = "BOTH"
 
+[[dependencies.${mod_id}]]
+modId = "bonded"
+type = "required"
+versionRange = "[1.2.0+1.21.4,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "advancednetherite"
+type = "required"
+versionRange = "[2.2.2,)"
+ordering = "AFTER"
+side = "BOTH"
+
 [[mixins]]
 config = "${mod_id}.mixins.json"
