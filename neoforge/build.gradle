@@ -8,6 +8,8 @@ dependencies {
     neoForge "net.neoforged:neoforge:$rootProject.neoforge_version"
 
     modImplementation "com.iamkaf.amber:amber-neoforge:$rootProject.amber_version"
+    modImplementation "com.iamkaf.bonded:bonded-neoforge:$rootProject.bonded_version"
+    modImplementation "maven.modrinth:advanced-netherite:neoforge-$rootProject.advanced_netherite_version"
     modRuntimeOnly("dev.emi:emi-neoforge:${rootProject.emi_version}")
 }
 
