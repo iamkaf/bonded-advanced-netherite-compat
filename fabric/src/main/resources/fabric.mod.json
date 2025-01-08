@@ -37,6 +37,6 @@
     "architectury": ">=${architectury_api_version}",
     "amber": ">=${amber_version}",
     "bonded": ">=1.2.0+1.21.1",
-    "advancednetherite": ">=2.2.1-1.21.1"
+    "advancednetherite": "*"
   }
 }

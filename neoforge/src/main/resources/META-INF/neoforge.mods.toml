@@ -49,7 +49,7 @@ side = "BOTH"
 [[dependencies.${mod_id}]]
 modId = "advancednetherite"
 type = "required"
-versionRange = "[2.2.1-1.21.1,)"
+versionRange = "*"
 ordering = "AFTER"
 side = "BOTH"
 
