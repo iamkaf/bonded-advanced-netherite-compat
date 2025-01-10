@@ -4,6 +4,12 @@
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "client": [
+    "AdvancedArmorItemMixin",
+    "AdvancedAxeItemMixin",
+    "AdvancedHoeItemMixin",
+    "AdvancedPickaxeItemMixin",
+    "AdvancedShovelItemMixin",
+    "AdvancedSwordItemMixin"
   ],
   "mixins": [
   ],
